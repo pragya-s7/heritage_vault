@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base styles that complement Tailwind */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better media defaults */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.heritage-white-text {
+  color: white !important;
+}
+
+.no-hover {
+  text-decoration: none;
+  color: white;
+}
+
+.no-hover:hover {
+  color: white;
+}
